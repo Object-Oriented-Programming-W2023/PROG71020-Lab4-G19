@@ -2,7 +2,7 @@
 #include "Vehicle.h"
 class BMW:public Vehicle
 {
-protected:
+public:
 	void Draw()
 	{
 

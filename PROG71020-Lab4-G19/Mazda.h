@@ -2,7 +2,7 @@
 #include "Vehicle.h"
 class Mazda :public Vehicle
 {
-protected:
+public:
 	void Draw()
 	{
 

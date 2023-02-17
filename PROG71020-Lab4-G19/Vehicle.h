@@ -2,7 +2,7 @@
 #include "Drawable.h"
 class Vehicle
 {
-protected:
+public:
 	virtual void Draw() 
 	{
 
