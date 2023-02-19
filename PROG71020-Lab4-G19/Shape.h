@@ -1,12 +1,17 @@
 #pragma once
-#include  "Drawable.h"
+#include "Drawable.h"
+#include <iostream>
 #include <math.h>
 class Shape:public Drawable
 {
 public:
-	virtual void Draw()
+	Shape()
 	{
 
+	}
+	virtual void Draw(Shape& shape)
+	{
+		shape.draw();
 	}
 
 	virtual double getArea() = 0;

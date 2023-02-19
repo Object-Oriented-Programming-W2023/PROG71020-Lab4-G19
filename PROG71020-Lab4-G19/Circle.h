@@ -14,13 +14,17 @@ public:
 	}
 	void draw()
 	{
-
+		std::cout << "   ***************" << std::endl;
+		std::cout << "  *               *" << std::endl;
+		std::cout << " *                  *" << std::endl;
+		std::cout << " *                  *" << std::endl;
+		std::cout << "  *                *" << std::endl;
+		std::cout << "   ***************" << std::endl;
 	}
 	double getArea()
 	{
 		double area = pow(radius, 2) * PI_VALUE;
 		return area;
 	}
-
 };
 

@@ -14,7 +14,9 @@ public:
 
 	void draw()
 	{
-
+		std::cout << "****************" << std::endl;
+		std::cout << "*              *" << std::endl;
+		std::cout << "****************" << std::endl;
 	}
 	double getArea()
 	{
