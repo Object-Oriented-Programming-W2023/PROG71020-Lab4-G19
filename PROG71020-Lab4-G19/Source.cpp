@@ -26,6 +26,15 @@ int main(void)
 	circ.Draw(circ);
 
 
+	BMW myBMW;
+	Mazda myMazda;
+
+	myBMW.Draw();
+	myBMW.Drive();
+
+	myMazda.Draw();
+	myMazda.Drive();
+
 
 	// Method 2 (using "draw" class from child classes);
 	//rect.draw();
