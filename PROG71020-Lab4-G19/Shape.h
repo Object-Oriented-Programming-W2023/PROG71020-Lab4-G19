@@ -9,9 +9,9 @@ public:
 	{
 
 	}
-	virtual void Draw()
+	virtual void Draw() override
 	{
-		std::cout << "ShapeDraw Override" << std::endl;
+
 	}
 	
 

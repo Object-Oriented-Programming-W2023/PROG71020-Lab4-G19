@@ -4,9 +4,9 @@
 class Vehicle:public Drawable 
 {
 public:
-	virtual void Draw() 
+	virtual void Draw() override
 	{
-		std::cout << "Draw Override" << std::endl;
+
 	}
 
 	// Because only vehicles can be driven, and this is the first instance of this function used, we have this as pure virtual function.
