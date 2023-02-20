@@ -10,7 +10,6 @@
 
 #define ARRLENGTH 10
 
-
 // "main" function.
 int main(void)
 {
@@ -21,34 +20,23 @@ int main(void)
 	std::cout << "The area of the circle: " << circ.getArea() << std::endl;
 
 	// Drawing both shapes.
-	// Method 1 (using "Draw" virtual class from parent);
-	rect.Draw(rect);
-	circ.Draw(circ);
-
-
 	BMW myBMW;
 	Mazda myMazda;
 
-	myBMW.Draw();
-	myBMW.Drive();
-
-	myMazda.Draw();
-	myMazda.Drive();
-
-
-	// Method 2 (using "draw" class from child classes);
-	//rect.draw();
-	//circ.draw();
+	Draw(circ);
+	Draw(rect);
+	Draw(myMazda);
+	Draw(myBMW);
+	
+	// Driving both vehicles.
+	Drive(myBMW);
+	Drive(myMazda);
 
 	// Creating objects for global function and passing array items.
 	Circle circle(20);
 	Rectangle rectangle(6, 7);
-	Shape* arr[ARRLENGTH] = { nullptr };
+	Shape* arr[ARRLENGTH] = {&rectangle, &circle, &rect, &circ, nullptr};
 
-	arr[0] = &rectangle;
-	arr[1] = &circle;
-	arr[2] = &rect;
-	arr[3] = &circ;
 
 	double totalArea = getTotalArea(arr);
 	std::cout << "The total area of all shapes in the array: " << totalArea << std::endl;

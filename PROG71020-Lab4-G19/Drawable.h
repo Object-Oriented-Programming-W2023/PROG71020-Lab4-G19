@@ -3,6 +3,11 @@ class Drawable
 {
 public:
 	// This virtual pure function allows us acess functions from child class.
-	virtual void draw() = 0;
+	virtual void Draw() = 0;
+	
+	/*virtual void Draw(Drawable& drawObject)
+	{
+		drawObject.Draw();
+	}*/
 };
 

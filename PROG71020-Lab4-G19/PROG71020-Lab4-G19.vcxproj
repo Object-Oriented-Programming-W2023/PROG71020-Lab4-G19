@@ -19,15 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BMW.cpp" />
-    <ClCompile Include="Circle.cpp" />
-    <ClCompile Include="Drawable.cpp" />
     <ClCompile Include="Global.cpp" />
-    <ClCompile Include="Mazda.cpp" />
-    <ClCompile Include="Rectangle.cpp" />
-    <ClCompile Include="Shape.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Vehicle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BMW.h" />

@@ -12,7 +12,7 @@ public:
 	{
 		this->radius = radius;
 	}
-	void draw()
+	void Draw()
 	{
 		std::cout << "   ***************" << std::endl;
 		std::cout << "  *               *" << std::endl;

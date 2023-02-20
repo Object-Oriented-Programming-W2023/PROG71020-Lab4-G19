@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Global.h"
-#include "Shape.h"
+
 double getTotalArea(Shape* arr[])
 {
 	int length = 2;
@@ -17,4 +17,13 @@ double getTotalArea(Shape* arr[])
 	}
 
 	return totalArea;
+}
+
+void Draw(Drawable& object)
+{
+	object.Draw();
+}
+void Drive(Vehicle& vehicle)
+{
+	vehicle.Drive();
 }

@@ -9,11 +9,13 @@ public:
 	{
 
 	}
-	virtual void Draw(Shape& shape)
+	virtual void Draw()
 	{
-		shape.draw();
+		std::cout << "ShapeDraw Override" << std::endl;
 	}
+	
 
+	// Because only shapes have areas, this should be pure virtual function.
 	virtual double getArea() = 0;
 };
 

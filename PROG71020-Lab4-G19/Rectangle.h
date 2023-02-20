@@ -12,7 +12,7 @@ public:
 		this->width = width;
 	}
 
-	void draw()
+	void Draw()
 	{
 		std::cout << "****************" << std::endl;
 		std::cout << "*              *" << std::endl;
